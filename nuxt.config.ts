@@ -17,7 +17,7 @@ export default defineNuxtConfig({
   css: ["@/assets/css/global.css"],
 
   imports: {
-    dirs: ["app/store/**"],
+    dirs: ["app/store/**", "app/composables/**"],
   },
 
   pinia: {

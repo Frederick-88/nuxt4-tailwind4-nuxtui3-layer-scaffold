@@ -1,11 +1,7 @@
 export default function useSharedTestComposable() {
-  function init() {
-    console.log("layer composable - init");
+  function layerInit() {
+    console.log("layer composable - layerInit");
   }
 
-  function showConfetti() {
-    console.log("layer composable - show");
-  }
-
-  return { init, showConfetti };
+  return { layerInit };
 }

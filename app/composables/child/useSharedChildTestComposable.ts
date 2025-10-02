@@ -1,11 +1,7 @@
 export default function useSharedChildTestComposable() {
-  function init() {
-    console.log("layer child composable - init");
+  function layerChildInit() {
+    console.log("layer child composable - layerChildInit");
   }
 
-  function showConfetti() {
-    console.log("layer child composable - show");
-  }
-
-  return { init, showConfetti };
+  return { layerChildInit };
 }
