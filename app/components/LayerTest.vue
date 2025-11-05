@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 // import { useSharedModalStore } from '@/store/modal';
-
-const modalStore = useSharedModalStore();
+const { $pinia } = useNuxtApp();
+const modalStore = useSharedModalStore($pinia);
 
 const colors = ["primary", "secondary"];
 
