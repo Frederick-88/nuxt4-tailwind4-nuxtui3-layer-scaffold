@@ -16,11 +16,7 @@ export default defineNuxtConfig({
 
   css: ["@/assets/css/global.css"],
 
-  imports: {
-    dirs: ["app/store/**"],
-  },
-
   pinia: {
-    storesDirs: ["app/store/**"],
+    storesDirs: ["store/**"],
   },
 });
